@@ -13,6 +13,12 @@
     o tienen tamaño definido    
 */
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .box{
     border-top-color: cadetblue;
     border-top-style: groove;
@@ -32,16 +38,32 @@
 }
 
 .box1{
+    margin: 20px 40px;
     background: green;   
     padding: 50px 45px 3px;
     display: block;     
-    height: 100px;       
+    height: 200px;       
+    width: 300px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 20px;
 }
 
 .box2{
     background: cornflowerblue;
-    padding: 2px 4px 6px 8px;
+    padding: auto;
     display: block;
-    height: 200px;       
+    height: 200px;
+    width: 200px;
+    opacity: 0.5;
+    margin-top: 100px;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;      
+
 }
+
 

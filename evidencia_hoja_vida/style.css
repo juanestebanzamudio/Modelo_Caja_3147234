@@ -1,0 +1,62 @@
+/*Estilos globales*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*Estilos de la card*/
+.card{
+    border: transparent 1px solid;
+    display: block;
+    background-color: #f2f2f2;
+    width: 400px;
+    height: 700px;
+    margin: 50px auto 10px auto;
+    border-radius: 5px;
+}
+
+img{
+    display: block;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+.contenedor{
+    display: block;
+    margin: 50px auto 20px auto;
+    width: 70%;
+    height: auto;
+}
+
+.titulo, .parrafo{
+    display: block;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 30px;
+    color: #192E3E;
+    margin: 10px auto 20px;
+}
+
+.parrafo{
+    text-align: justify;
+    font-size: 20px;
+    color: #554853;
+    margin: 10px auto 20px;
+}
+
+.boton{
+    display: block;
+    width: 100%;
+    color:#192E3E ;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
